@@ -3799,8 +3799,8 @@ input, select, textarea {
 
 			.wrapper.spotlight .image {
 				border-radius: 100%;
-				margin: 0 3em 2em 0;
-				width: 22em;
+				margin: 0 1em 0.5em 0;
+				width: 8em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
@@ -4163,7 +4163,7 @@ input, select, textarea {
   height: 1em;
   vertical-align: middle;   /* aligns nicely with the link text */
 
-  background-image: url('../../images/QUDYMA_logo.png');
+  background-image: url('../../images/icons/QUDYMA_logo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -4175,7 +4175,7 @@ input, select, textarea {
   height: 1em;
   vertical-align: middle;   /* aligns nicely with the link text */
 
-  background-image: url('../../images/ICMM_logo.svg');
+  background-image: url('../../images/icons/ICMM_logo.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -4187,7 +4187,7 @@ input, select, textarea {
   height: 1em;
   vertical-align: middle;   /* aligns nicely with the link text */
 
-  background-image: url('../../images/CSIC_logo.svg');
+  background-image: url('../../images/icons/CSIC_logo.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
