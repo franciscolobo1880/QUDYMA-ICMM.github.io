@@ -3008,10 +3008,10 @@ input, select, textarea {
 			background-color: #696969;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
+			width: calc(30% - 1.5em);
 		}
 
-			.features article:nth-child(2n) {
+			.features article:nth-child(3n) {
 				margin-right: 0;
 			}
 
@@ -3378,7 +3378,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 5em 0 4.75em 0 ;
+		padding: 3.5em 0 4.75em 0 ;
 	}
 
 		#banner .inner {
@@ -4207,7 +4207,7 @@ input, select, textarea {
 }
 
 #features-row .feature {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.05);
   border-radius: 0.5rem;
   padding: 1.25rem;
   width: 15rem;                /* change to taste */
@@ -4215,12 +4215,12 @@ input, select, textarea {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.15) inset;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset;
 }
 
 #features-row .feature .image {
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
   margin-bottom: 0.75rem;
 }
 
@@ -4257,6 +4257,7 @@ input, select, textarea {
 }
 
 #features-row {
+  margin-top: -3rem;   /* external space after the section — change to taste */
   margin-bottom: 10rem;   /* external space after the section — change to taste */
 }
 
