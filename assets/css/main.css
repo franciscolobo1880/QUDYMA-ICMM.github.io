@@ -3461,21 +3461,6 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-		@media screen and (max-width: 1280px) {
-
-			#banner {
-				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
-				margin-bottom: -6.5em;
-			}
-
-		}
-
 		@media screen and (max-width: 980px) {
 
 			#banner {
@@ -4200,22 +4185,22 @@ input, select, textarea {
   justify-content: center;
   align-items: stretch;
   gap: 2rem;
-  padding: 0rem 0rem;
+  padding: 2rem 1rem;
   max-width: 1200px;
   margin: 0 auto 2rem auto;
   box-sizing: border-box;
 }
 
 #features-row .feature {
-  background: rgba(255,255,255,0.05);
-  border-radius: 0.5rem;
+  /* background: rgba(255,255,255,0.05); */
+  /* border-radius: 0.5rem; */
   padding: 1.25rem;
   width: 15rem;                /* change to taste */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset;
+  /* box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset; */
 }
 
 #features-row .feature .image {
@@ -4248,7 +4233,7 @@ input, select, textarea {
   #features-row {
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem;
+    padding: 4rem;
   }
 
   #features-row .feature {
