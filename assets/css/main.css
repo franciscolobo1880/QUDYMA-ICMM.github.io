@@ -4271,30 +4271,45 @@ input, select, textarea {
 
 /* ----- Center photo section ----- */
 .photo-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0em 0em 5em 0em;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0rem 5rem 0rem;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .photo-center .image {
-    max-width: 800px;  /* adjust this value to control image size */
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 30px;
-    overflow: hidden;
+  width: 100%;
+  max-width: 900px; /* desktop max width */
+  margin: 0 auto;
+  border-radius: 30px;
+  overflow: hidden;
+  display: block;
 }
 
 .photo-center .image img {
-    width: 100%;
-    height: auto;
-    display: block;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Responsive adjustments */
+@media screen and (max-width: 980px) {
+  .photo-center .image {
+    max-width: 680px;
+    border-radius: 20px;
+  }
+}
+
 @media screen and (max-width: 736px) {
-    .photo-center {
-        padding: 2em 1em;
-    }
+  .photo-center {
+    padding: 1.25rem 1rem 2rem 1rem;
+  }
+
+  .photo-center .image {
+    max-width: 92%;
+    border-radius: 12px;
+  }
 }
